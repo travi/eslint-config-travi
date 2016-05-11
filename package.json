@@ -23,5 +23,11 @@
     "eslint-config-defaults": "travi/eslint-config-defaults#arrow-condition",
     "eslint-plugin-filenames": "0.2.0",
     "eslint-plugin-react": "5.0.1"
+  },
+  "scripts": {
+    "postpublish": "greenkeeper-postpublish"
+  },
+  "devDependencies": {
+    "greenkeeper-postpublish": "1.0.0"
   }
 }
