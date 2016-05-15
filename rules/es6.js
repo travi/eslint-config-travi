@@ -1,6 +1,6 @@
 module.exports = {
-    ecmaFeatures: {
-        modules: true
+    parserOptions: {
+        sourceType: "module"
     },
 
     env: {
