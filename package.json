@@ -19,6 +19,10 @@
     "url": "https://github.com/travi/eslint-config-travi/issues"
   },
   "homepage": "https://github.com/travi/eslint-config-travi#readme",
+  "scripts": {
+    "postpublish": "greenkeeper-postpublish",
+    "test": "eslint rules"
+  },
   "dependencies": {
     "babel-eslint": "6.0.4",
     "eslint-config-defaults": "travi/eslint-config-defaults#arrow-condition",
@@ -26,10 +30,11 @@
     "eslint-plugin-filenames": "1.0.0",
     "eslint-plugin-react": "5.1.1"
   },
-  "scripts": {
-    "postpublish": "greenkeeper-postpublish"
-  },
   "devDependencies": {
+    "eslint": "2.10.2",
     "greenkeeper-postpublish": "1.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2.10.2",
   }
 }
