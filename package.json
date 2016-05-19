@@ -35,6 +35,6 @@
     "greenkeeper-postpublish": "1.0.0"
   },
   "peerDependencies": {
-    "eslint": "^2.10.2",
+    "eslint": "^2.10.2"
   }
 }
