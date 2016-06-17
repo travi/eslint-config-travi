@@ -28,7 +28,7 @@
     "eslint-config-defaults": "travi/eslint-config-defaults#updates",
     "eslint-plugin-cucumber": "0.1.0",
     "eslint-plugin-filenames": "1.0.0",
-    "eslint-plugin-react": "5.1.1"
+    "eslint-plugin-react": "5.2.1"
   },
   "devDependencies": {
     "eslint": "2.12.0",
