@@ -1,2 +1,10 @@
 language: node_js
 node_js: 6.0
+deploy:
+  provider: npm
+  email: npm@travi.org
+  api_key:
+    secure: DEo/C7gTVc7RjQmPJdwjgxWgC/l3jM6tMMiGsil5fKdgtrrHwJwSJHSBqwaoX69gA7R2d33ExG4FxJ2AYP9LGazOb/gl4Qz8LGfDflDFzLGd9v1xnP/tzjs3Zvyg+2hNtxmvG2F+qH7RIkkK9Ary3F41kyjwp2l3x0SA1x0O+uV6BQGzh/f+SKrCz+HYL623wNY9YgyTL3ASVF2aMAncmb5fkEBM3E8Ez9Ui78en4asa3n4htyhr60fK/gUSGq+zeVHD7/Bi3QnPOjkz5+Bl0XSgK8k/0C6sEaRRLO2HxT5RHmQODqS0iL+ylTLbQ2xMHb9W2+0RR4oAMyl7WKoJB2xNoSHUNviDjbfT509FkE0q2vtWgbVnimWEbbXaUQRjSn52kGaMG56Pbq6VlKRXPkF8XI0ru4uW4JK7yLW66cSerLKZom0nK/Y2Ofgd/UKM0FbMy/sE+nDbx439+AD/PXRgZcQgaazfnnlUiCgxd93Z/LZ1WUj9QidFNmCkLvDyIhZoPYzwxSEMm/F3kleYAoAPR0aT78Hn5cAsmYNOub4d9vIX3uFGNqmtfM9fRwAI5noWf99BQX+J16eaoH4RA/5Qnw/5JPQHX1+ceNtFDB0g6rVs5S3A3F4RG6nCCKadf/ubqDvd9ypOHJjNXhKo7n3bD0upMcoJ1U9Tn4PpC/A=
+  on:
+    tags: true
+    repo: travi/eslint-config-travi
