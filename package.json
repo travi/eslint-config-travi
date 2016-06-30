@@ -26,7 +26,7 @@
   "dependencies": {
     "babel-eslint": "6.1.0",
     "eslint-config-defaults": "travi/eslint-config-defaults#updates",
-    "eslint-plugin-cucumber": "0.1.0",
+    "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
     "eslint-plugin-filenames": "1.0.0",
     "eslint-plugin-react": "5.2.2"
   },
