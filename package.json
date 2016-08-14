@@ -28,7 +28,7 @@
     "eslint-config-defaults": "travi/eslint-config-defaults#updates",
     "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
     "eslint-plugin-filenames": "1.1.0",
-    "eslint-plugin-react": "6.0.0"
+    "eslint-plugin-react": "6.1.0"
   },
   "devDependencies": {
     "eslint": "3.3.0",
