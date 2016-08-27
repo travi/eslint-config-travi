@@ -31,7 +31,7 @@
     "eslint-plugin-react": "6.1.2"
   },
   "devDependencies": {
-    "eslint": "3.3.0",
+    "eslint": "3.4.0",
     "greenkeeper-postpublish": "1.0.1"
   },
   "peerDependencies": {
