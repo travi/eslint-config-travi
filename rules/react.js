@@ -15,7 +15,7 @@ module.exports = {
         'react/jsx-no-bind': 'error',
         'react/jsx-pascal-case': 'error',
         'react/jsx-key': 'error',
-        'react/display-name': 'error',
+        'react/display-name': ['error', {'ignoreTranspilerName': true}],
         'react/prefer-stateless-function': 'error',
         'jsx-quotes': 'error',
         'react/no-is-mounted': 'error',
