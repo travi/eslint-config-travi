@@ -25,7 +25,7 @@
     "test": "eslint rules"
   },
   "dependencies": {
-    "babel-eslint": "6.1.2",
+    "babel-eslint": "7.0.0",
     "eslint-config-defaults": "travi/eslint-config-defaults#updates",
     "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
     "eslint-plugin-filenames": "1.1.0",
