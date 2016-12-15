@@ -1,13 +1,13 @@
 module.exports = {
-    env: {
-        mocha: true
-    },
+  env: {
+    mocha: true
+  },
 
-    globals: {
-        document: false
-    },
+  plugins: ['mocha'],
 
-    rules: {
-        'max-nested-callbacks': ['error', 4]
-    }
+  extends: ['plugin:mocha/recommended'],
+
+  rules: {
+    'mocha/no-skipped-tests': 'error'
+  }
 };

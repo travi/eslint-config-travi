@@ -1,7 +1,9 @@
 module.exports = {
-    extends: '../react.js',
+  extends: [
+    '../react.js'
+  ],
 
-    rules: {
-        'react/display-name': 'off'
-    }
+  rules: {
+    'react/jsx-boolean-value': ['error', 'always']
+  }
 };

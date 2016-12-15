@@ -1,30 +1,40 @@
 module.exports = {
-    parserOptions: {
-        sourceType: 'module'
-    },
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
+    'shared-node-browser': true
+  },
 
-    env: {
-        node: true,
-        es6: true
-    },
-
-    extends: [
-        'eslint:recommended',
-        'defaults/configurations/walmart/es6'
-    ],
-
-    rules: {
-        camelcase: 'error',
-        'prefer-arrow-callback': 'error',
-        'prefer-template': 'error',
-        'no-multiple-empty-lines': 'error',
-        quotes: ['error', 'single'],
-        indent: ['error', 4],
-        'max-len': ['error', 120, 4],
-        'one-var': ['error', 'always'],
-        'func-style': ['error', 'declaration'],
-        yoda: ['error', 'always'],
-        'linebreak-style': ['error', 'unix'],
-        'new-cap': ['error', {capIsNewExceptions: ['Map']}]
+  parserOptions: {
+    sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
     }
+  },
+
+  plugins: ['filenames'],
+
+  extends: [
+    'eslint:recommended',
+    'eslint-config-airbnb-base',
+    'eslint-config-airbnb-base/rules/strict'
+  ],
+
+  rules: {
+    'no-console': 'error',
+    'comma-dangle': ['error', 'never'],
+    'max-len': ['error', 120],
+    'one-var': ['error', {uninitialized: 'always', initialized: 'never'}],
+    'one-var-declaration-per-line': ['error', 'initializations'],
+    'filenames/match-regex': ['error', '^[a-z0-9\\-\\.]+$'],
+    'new-cap': ['error', {capIsNewExceptions: ['Map']}],
+    yoda: ['error', 'always'],
+    'handle-callback-err': 'error',
+    'object-curly-spacing': ['error', 'never'],
+    'import/prefer-default-export': 'off',
+    'arrow-parens': ['error', 'as-needed'],
+    'global-require': 'off',
+    'func-style': ['error', 'declaration']
+  }
 };
