@@ -35,6 +35,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'arrow-parens': ['error', 'as-needed'],
     'global-require': 'off',
-    'func-style': ['error', 'declaration']
+    'func-style': ['error', 'declaration'],
+    'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}]
   }
 };
