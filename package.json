@@ -1,6 +1,6 @@
 {
   "name": "@travi/eslint-config-travi",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "my eslint config",
   "repository": {
     "type": "git",
