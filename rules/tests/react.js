@@ -4,6 +4,8 @@ module.exports = {
   ],
 
   rules: {
-    'react/jsx-boolean-value': ['error', 'always']
+    'react/jsx-boolean-value': ['error', 'always'],
+    'react/display-name': 'off',
+    'react/prop-types': 'off'
   }
 };
