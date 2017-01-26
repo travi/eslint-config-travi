@@ -4,6 +4,7 @@ module.exports = {
   ],
 
   rules: {
-    'no-undefined': 'off'
+    'no-undefined': 'off',
+    'handle-callback-err': 'off'
   }
 };
