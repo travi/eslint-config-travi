@@ -22,7 +22,9 @@
   "homepage": "https://github.com/travi/eslint-config-travi#readme",
   "scripts": {
     "postpublish": "greenkeeper-postpublish",
-    "test": "eslint rules"
+    "test": "eslint rules",
+    "commitmsg": "validate-commit-msg",
+    "precommit": "npm test"
   },
   "dependencies": {
     "eslint": "3.16.1",
@@ -36,6 +38,14 @@
     "eslint-plugin-react": "6.10.0"
   },
   "devDependencies": {
-    "greenkeeper-postpublish": "1.0.1"
+    "cz-conventional-changelog": "2.0.0",
+    "greenkeeper-postpublish": "1.0.1",
+    "husky": "0.13.2",
+    "validate-commit-msg": "2.11.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
