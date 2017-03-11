@@ -1,6 +1,6 @@
 {
   "name": "@travi/eslint-config-travi",
-  "version": "1.0.0-beta.6",
+  "version": "0.0.0-semantically-released",
   "description": "my eslint config",
   "repository": {
     "type": "git",
@@ -24,7 +24,8 @@
     "postpublish": "greenkeeper-postpublish",
     "test": "eslint rules",
     "commitmsg": "validate-commit-msg",
-    "precommit": "npm test"
+    "precommit": "npm test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "eslint": "3.16.1",
@@ -41,6 +42,7 @@
     "cz-conventional-changelog": "2.0.0",
     "greenkeeper-postpublish": "1.0.1",
     "husky": "0.13.2",
+    "semantic-release": "6.3.2",
     "validate-commit-msg": "2.11.2"
   },
   "config": {
@@ -49,7 +51,6 @@
     }
   },
   "publishConfig": {
-    "access": "public",
-    "tag": "beta"
+    "access": "public"
   }
 }
