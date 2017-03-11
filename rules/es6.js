@@ -37,6 +37,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'global-require': 'off',
     'func-style': ['error', 'declaration'],
+    'func-names': 'error',
     'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}]
   }
 };
