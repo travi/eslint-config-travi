@@ -18,8 +18,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'eslint-config-airbnb-base',
-    'eslint-config-airbnb-base/rules/strict',
-    'plugin:no-unused-vars-rest/recommended'
+    'eslint-config-airbnb-base/rules/strict'
   ],
 
   rules: {
@@ -38,6 +37,7 @@ module.exports = {
     'global-require': 'off',
     'func-style': ['error', 'declaration'],
     'func-names': 'error',
-    'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}]
+    'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}],
+    'no-unused-vars': ['error', {ignoreRestSiblings: true}]
   }
 };
