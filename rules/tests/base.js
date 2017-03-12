@@ -5,6 +5,7 @@ module.exports = {
 
   rules: {
     'no-undefined': 'off',
-    'handle-callback-err': 'off'
+    'handle-callback-err': 'off',
+    'func-style': ['error', {allowArrowFunctions: true}]
   }
 };
