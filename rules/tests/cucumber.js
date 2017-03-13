@@ -8,6 +8,7 @@ module.exports = {
     'no-invalid-this': 'off',
     'cucumber/async-then': 'error',
     'func-names': 'off',
+    'filenames/match-regex': ['error', '^[a-z0-9\\-\\.]+.-steps'],
     'new-cap': [
       'error',
       {

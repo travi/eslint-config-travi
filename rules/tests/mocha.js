@@ -8,6 +8,7 @@ module.exports = {
   extends: ['plugin:mocha/recommended'],
 
   rules: {
-    'mocha/no-skipped-tests': 'error'
+    'mocha/no-skipped-tests': 'error',
+    'filenames/match-regex': ['error', '^[a-z0-9\\-\\.]+.-test$']
   }
 };
