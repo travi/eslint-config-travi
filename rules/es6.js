@@ -13,7 +13,7 @@ module.exports = {
     }
   },
 
-  plugins: ['filenames'],
+  plugins: ['filenames', 'security'],
 
   extends: [
     'eslint:recommended',
