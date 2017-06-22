@@ -38,6 +38,7 @@ module.exports = {
     'func-style': ['error', 'declaration'],
     'func-names': 'error',
     'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}],
-    'no-unused-vars': ['error', {ignoreRestSiblings: true}]
+    'no-unused-vars': ['error', {ignoreRestSiblings: true}],
+    'no-multi-spaces': ['error', {ignoreEOLComments: true}]
   }
 };
