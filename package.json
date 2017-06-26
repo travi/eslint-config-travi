@@ -27,7 +27,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
-    "eslint": "4.1.0",
+    "eslint": "4.1.1",
     "eslint-config-airbnb": "15.0.1",
     "eslint-config-import": "0.13.0",
     "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
