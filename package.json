@@ -32,7 +32,7 @@
     "eslint-config-import": "0.13.0",
     "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
     "eslint-plugin-filenames": "1.2.0",
-    "eslint-plugin-import": "2.6.1",
+    "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "6.0.2",
     "eslint-plugin-mocha": "4.11.0",
     "eslint-plugin-react": "7.1.0",
