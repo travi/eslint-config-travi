@@ -17,6 +17,7 @@ module.exports = {
 
   extends: [
     'eslint:recommended',
+    'plugin:import/recommended',
     'eslint-config-airbnb-base',
     'eslint-config-airbnb-base/rules/strict'
   ],
