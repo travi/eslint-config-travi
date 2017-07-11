@@ -40,6 +40,6 @@ module.exports = {
     'func-names': 'error',
     'no-underscore-dangle': ['error', {allow: ['_links', '_embedded']}],
     'no-unused-vars': ['error', {ignoreRestSiblings: true}],
-    'no-multi-spaces': ['error', {ignoreEOLComments: true}]
+    'no-multi-spaces': ['error']
   }
 };
