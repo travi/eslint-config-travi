@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/travi/eslint-config-travi#readme",
   "scripts": {
-    "postinstall": "npm ls >/dev/null",
     "test": "eslint rules",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
