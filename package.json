@@ -22,7 +22,7 @@
   "homepage": "https://github.com/travi/eslint-config-travi#readme",
   "scripts": {
     "test": "eslint rules",
-    "commitmsg": "validate-commit-msg",
+    "commitmsg": "commitlint -e",
     "precommit": "npm test",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -38,10 +38,10 @@
     "eslint-plugin-security": "1.4.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "3.1.2",
     "cz-conventional-changelog": "2.0.0",
     "husky": "0.14.3",
-    "semantic-release": "6.3.6",
-    "validate-commit-msg": "2.14.0"
+    "semantic-release": "6.3.6"
   },
   "config": {
     "commitizen": {
