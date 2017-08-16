@@ -1,5 +1,7 @@
 # eslint-config-travi
 
+My [Shareable ESLint config](http://eslint.org/docs/developer-guide/shareable-configs)
+
 [![npm](https://img.shields.io/npm/v/@travi/eslint-config-travi.svg?maxAge=2592000)](https://www.npmjs.com/package/@travi/eslint-config-travi)
 [![license](https://img.shields.io/github/license/travi/eslint-config-travi.svg)](LICENSE)
 
