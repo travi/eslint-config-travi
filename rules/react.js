@@ -20,7 +20,7 @@ module.exports = {
     'react/jsx-key': 'error',
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-no-undef': 'error',
-    'react/jsx-no-bind': 'error',
+    'react/jsx-no-bind': ['error', {allowArrowFunctions: false}],
     'react/jsx-pascal-case': 'error',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
