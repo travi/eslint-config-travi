@@ -34,15 +34,15 @@ module.exports = {
     yoda: ['error', 'always'],
     'handle-callback-err': 'error',
     'object-curly-spacing': ['error', 'never'],
-    'object-curly-newline': ["error", {
-      "ObjectExpression": {
-        "minProperties": 4,
-        "multiline": true,
-        "consistent": true
+    'object-curly-newline': ['error', {
+      ObjectExpression: {
+        minProperties: 4,
+        multiline: true,
+        consistent: true
       },
-      "ObjectPattern": {
-        "multiline": true,
-        "consistent": true
+      ObjectPattern: {
+        multiline: true,
+        consistent: true
       }
     }],
     'import/prefer-default-export': 'off',
