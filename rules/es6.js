@@ -36,7 +36,6 @@ module.exports = {
     'object-curly-spacing': ['error', 'never'],
     'object-curly-newline': ['error', {
       ObjectExpression: {
-        minProperties: 4,
         multiline: true,
         consistent: true
       },
