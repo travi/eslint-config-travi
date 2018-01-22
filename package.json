@@ -41,7 +41,7 @@
     "eslint-plugin-security": "1.4.0"
   },
   "devDependencies": {
-    "commitlint-config-travi": "1.2.19",
+    "commitlint-config-travi": "1.2.20",
     "cz-conventional-changelog": "2.1.0",
     "dont-crack": "1.2.1",
     "greenkeeper-lockfile": "1.13.1",
