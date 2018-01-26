@@ -46,7 +46,7 @@
     "dont-crack": "1.2.1",
     "greenkeeper-lockfile": "1.13.1",
     "husky": "0.14.3",
-    "semantic-release": "12.2.2"
+    "semantic-release": "12.2.4"
   },
   "config": {
     "commitizen": {
