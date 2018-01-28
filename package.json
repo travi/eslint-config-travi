@@ -31,7 +31,6 @@
   "dependencies": {
     "eslint": "4.16.0",
     "eslint-config-airbnb": "16.1.0",
-    "eslint-plugin-cucumber": "travi/eslint-plugin-cucumber#callback",
     "eslint-plugin-eslint-comments": "2.0.2",
     "eslint-plugin-filenames": "1.2.0",
     "eslint-plugin-import": "2.8.0",
@@ -44,6 +43,7 @@
     "commitlint-config-travi": "1.2.20",
     "cz-conventional-changelog": "2.1.0",
     "dont-crack": "1.2.1",
+    "eslint-plugin-cucumber": "1.1.0",
     "greenkeeper-lockfile": "1.13.2",
     "husky": "0.14.3",
     "semantic-release": "12.2.5"
