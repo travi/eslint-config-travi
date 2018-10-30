@@ -23,8 +23,7 @@
   "scripts": {
     "test": "eslint rules",
     "commitmsg": "commitlint -e",
-    "precommit": "npm test",
-    "semantic-release": "semantic-release"
+    "precommit": "npm test"
   },
   "dependencies": {
     "eslint": "^5.8.0",
@@ -42,8 +41,7 @@
     "commitlint-config-travi": "^1.2.31",
     "cz-conventional-changelog": "2.1.0",
     "dont-crack": "1.2.1",
-    "husky": "^1.1.2",
-    "semantic-release": "^15.10.6"
+    "husky": "^1.1.2"
   },
   "config": {
     "commitizen": {
