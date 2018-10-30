@@ -5,10 +5,7 @@ branches:
   except:
     - "/^v\\d+\\.\\d+\\.\\d+$/"
 install: case $TRAVIS_BRANCH in greenkeeper*) npm i;; *) npm ci;; esac;
-before_script:
-  - npm run greenkeeper:update-lockfile
-  - npm ls >/dev/null
-after_script: npm run greenkeeper:upload-lockfile
+before_script: npm ls >/dev/null
 deploy:
   provider: script
   skip_cleanup: true
