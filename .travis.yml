@@ -4,12 +4,8 @@ notifications:
 branches:
   except:
     - "/^v\\d+\\.\\d+\\.\\d+$/"
-install: case $TRAVIS_BRANCH in greenkeeper*) npm i;; *) npm ci;; esac;
 before_script: npm ls >/dev/null
 deploy:
   provider: script
   skip_cleanup: true
   script: DEBUG=dont-crack npx semantic-release
-env:
-  global:
-  - secure: R45hYQbIhf+ragcMvMldUtCb7vFjPCRTKt//4N1pJH374gDQyxQBrA8sQSEwtW64hYJJXfnsur9oSJlvZ/Y8q81oV17qgSqphibOuBlSHZftZo3Gsk6JC0Xs0ti4G+r0x8YSqUVqcCwyCToo8gx2a94tJuTTJEV6w2bt8vXBT0os32vQveHJBjZ0jevjNMNJGEc8EDYKwj4bF0k25y/23L3NgRKaBGAGFZdPzA8at8NjETGlmsNigreDWXcGu8LCPgHeNiR9Gm0sarUv3YlZ/HqywQkmRU+lX8yWYLCmDpZgKMARsFY+m7/2Ih4X1LH+1i86p/NjoEyNjRMHppDZ5Etx4zd9bgX4nz7hjipKY/Q391sH9BEG8YnLkvzre6m9LoiSPRGEcMY0GeUm2dXMKIkiu6H4+kjdanaqKVIkFnDH1sOCQtYuzy7ZKJ2SXMXjRbz/D3O/kZCxQHj/VMzhczWJW66CaZ+amY6Fl3Km602u4GFmv6PJJK7ZP4jIWmIN/oc4EY5gOgz/rp3Vb1eB/b+uCHywPkKysEbuXuBU0YeZ0PYJWVVCsXaOfyNZleQvmazsvoKPO9eUTnF+IytAKRQnfBbeuMwp9aeCdcocsayCYzdAu6oJWiIQGE6oQHdwjC9i5P9/tK1yx/6MHkAAgT5o8AdWK7rWYSul2CYbJW8=
