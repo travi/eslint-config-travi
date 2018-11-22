@@ -5,6 +5,8 @@ module.exports = {
     'eslint-config-airbnb/rules/react-a11y'
   ],
 
+  parser: 'babel-eslint',
+
   rules: {
     'import/prefer-default-export': 'error',
     'jsx-quotes': 'error',

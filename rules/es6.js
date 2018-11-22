@@ -8,9 +8,7 @@ module.exports = {
 
   parserOptions: {
     sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true
-    }
+    ecmaVersion: 2018
   },
 
   plugins: ['filenames', 'security', 'eslint-comments'],
