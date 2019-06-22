@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "babel-eslint": "10.0.2",
-    "eslint": "^5.8.0",
+    "eslint": "^6.0.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-cucumber": "1.2.0",
     "eslint-plugin-eslint-comments": "^3.0.1",
