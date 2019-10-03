@@ -2,7 +2,7 @@
 
 My [Shareable ESLint config](http://eslint.org/docs/developer-guide/shareable-configs)
 
-:warn: Deprecated in favor of [@travi/eslint-config](https://github.com/travi/eslint-config)
+:warning: Deprecated in favor of [@travi/eslint-config](https://github.com/travi/eslint-config)
 
 [![npm](https://img.shields.io/npm/v/@travi/eslint-config-travi.svg?maxAge=2592000)](https://www.npmjs.com/package/@travi/eslint-config-travi)
 [![license](https://img.shields.io/github/license/travi/eslint-config-travi.svg)](LICENSE)
